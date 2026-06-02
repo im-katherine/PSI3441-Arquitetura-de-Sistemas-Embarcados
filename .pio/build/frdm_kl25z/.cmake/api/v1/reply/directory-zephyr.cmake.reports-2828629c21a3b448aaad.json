@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/cmake/reports",
+		"source" : "C:/Users/isisk/.platformio/packages/framework-zephyr@2.20701.220422/cmake/reports"
+	}
+}
