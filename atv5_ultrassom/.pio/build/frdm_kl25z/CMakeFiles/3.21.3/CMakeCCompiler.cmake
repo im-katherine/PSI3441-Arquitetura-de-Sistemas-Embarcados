@@ -24,7 +24,7 @@ set(CMAKE_AR "C:/Users/isisk/.platformio/packages/toolchain-gccarmnoneeabi@1.802
 set(CMAKE_C_COMPILER_AR "C:/Users/isisk/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc-ar.exe")
 set(CMAKE_RANLIB "C:/Users/isisk/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-ranlib.exe")
 set(CMAKE_C_COMPILER_RANLIB "C:/Users/isisk/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Users/isisk/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-ld.bfd.exe")
+set(CMAKE_LINKER "c:/users/isisk/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/arm-none-eabi/bin/ld.bfd.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -50,7 +50,7 @@ set(CMAKE_C_LINKER_PREFERENCE 10)
 # Save compiler ABI information.
 set(CMAKE_C_SIZEOF_DATA_PTR "")
 set(CMAKE_C_COMPILER_ABI "")
-set(CMAKE_C_BYTE_ORDER "")
+set(CMAKE_C_BYTE_ORDER "LITTLE_ENDIAN")
 set(CMAKE_C_LIBRARY_ARCHITECTURE "")
 
 if(CMAKE_C_SIZEOF_DATA_PTR)

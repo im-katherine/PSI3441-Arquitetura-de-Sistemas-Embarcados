@@ -1,27 +1,19 @@
-How to build PlatformIO based project
-=====================================
+No arquivo `fsl_tpm.h`, localizado em  `~/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/tpm/fsl_tpm.h`, adicionar nas primeiras linhas, após os `#include`, o seguinte bloco de código:
 
-1. [Install PlatformIO Core](https://docs.platformio.org/page/core.html)
-2. Download [development platform with examples](https://github.com/platformio/platform-freescalekinetis/archive/develop.zip)
-3. Extract ZIP archive
-4. Run these commands:
+```c
+#ifndef FSL_FEATURE_TPM_HAS_32BIT_COUNTERn
+#define FSL_FEATURE_TPM_HAS_32BIT_COUNTERn(x) (0)
+#endif
+```
 
-```shell
-# Change directory to example
-$ cd platform-freescalekinetis/examples/zephyr-blink
+No arquivo `pwm_mcux_tpm.c`, localizado em  `~/.platformio/packages/framework-zephyr/drivers/pwm/pwm_mcux_tpm.c`, corrigir o erro, na linha **64**, da variável `base` não definida, dentro da função `mcux_tpm_set_cycles`, com o seguinte código:
 
-# Build project
-$ pio run
+```c
+if (period_cycles == 0 || period_cycles == TPM_MAX_COUNTER_VALUE(base)) {
+```
 
-# Upload firmware
-$ pio run --target upload
+Para:
 
-# Build specific environment
-$ pio run -e frdm_k64f
-
-# Upload firmware for the specific environment
-$ pio run -e frdm_k64f --target upload
-
-# Clean build files
-$ pio run --target clean
+```c
+if (period_cycles == 0 || period_cycles == TPM_MAX_COUNTER_VALUE(config->base)) {
 ```

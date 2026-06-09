@@ -6,4 +6,4 @@
 # and/or the west manifest file.
 #
 # See the Modules guide for more information.
-"DTS_ROOT":"C:/Users/isisk/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nxp"
+"DTS_ROOT":"C:/Users/isisk/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp"

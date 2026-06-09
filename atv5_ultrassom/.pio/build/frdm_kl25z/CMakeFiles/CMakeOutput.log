@@ -1,4 +1,4 @@
-The target system is: Generic - 2.7.1 - arm
+The target system is: Generic - 4.2.0 - arm
 The host system is: Windows - 10.0.26200 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/Users/isisk/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc.exe 
@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "C:/Users/isisk/.platformio/260602-093213-zephyr-blink/.pio/build/frdm_kl25z/CMakeFiles/3.21.3/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "C:/Users/isisk/.platformio/260602-093213-zephyr-blink/atv5_ultrassom/.pio/build/frdm_kl25z/CMakeFiles/3.21.3/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Users/isisk/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc.exe 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "C:/Users/isisk/.platformio/260602-093213-zephyr-blink/.pio/build/frdm_kl25z/CMakeFiles/3.21.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "C:/Users/isisk/.platformio/260602-093213-zephyr-blink/atv5_ultrassom/.pio/build/frdm_kl25z/CMakeFiles/3.21.3/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc.exe (GNU MCU Eclipse ARM Embedded GCC, 64-bit) 8.2.1 20181213 (release) [gcc-8-branch revision 267074]
