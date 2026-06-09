@@ -1,0 +1,84 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/arthur/Documentos/embarcados/Aula2PWM/include",
+                "/home/arthur/Documentos/embarcados/Aula2PWM/src",
+                "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr",
+                "/home/arthur/.platformio/packages/framework-zephyr/include",
+                "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated",
+                "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis",
+                "/home/arthur/.platformio/packages/framework-zephyr/lib/libc/newlib/include",
+                "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis/kl2x",
+                "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis/common",
+                "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis_6/CMSIS/Core/Include",
+                "/home/arthur/.platformio/packages/framework-zephyr/modules/cmsis_6",
+                "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk/devices/MKL25Z4",
+                "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk/devices/MKL25Z4/drivers",
+                "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/common",
+                "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpsci",
+                "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/port",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/arthur/Documentos/embarcados/Aula2PWM/include",
+                    "/home/arthur/Documentos/embarcados/Aula2PWM/src",
+                    "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr",
+                    "/home/arthur/.platformio/packages/framework-zephyr/include",
+                    "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated",
+                    "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis",
+                    "/home/arthur/.platformio/packages/framework-zephyr/lib/libc/newlib/include",
+                    "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis/kl2x",
+                    "/home/arthur/.platformio/packages/framework-zephyr/soc/nxp/kinetis/common",
+                    "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                    "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis_6/CMSIS/Core/Include",
+                    "/home/arthur/.platformio/packages/framework-zephyr/modules/cmsis_6",
+                    "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk/devices/MKL25Z4",
+                    "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk/devices/MKL25Z4/drivers",
+                    "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/common",
+                    "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/lpsci",
+                    "/home/arthur/.platformio/packages/framework-zephyr/_pio/modules/hal/nxp/mcux/mcux-sdk-ng/drivers/port",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60119",
+                "CPU_MKL25Z128VLK4",
+                "KERNEL",
+                "K_HEAP_MEM_POOL_SIZE=0",
+                "NDEBUG",
+                "_ANSI_SOURCE",
+                "__LINUX_ERRNO_EXTENSIONS__",
+                "__PROGRAM_START",
+                "__ZEPHYR__=1",
+                ""
+            ],
+            "cStandard": "c99",
+            "forcedInclude": [
+                "/home/arthur/Documentos/embarcados/Aula2PWM/.pio/build/frdm_kl25z/zephyr/include/generated/zephyr/autoconf.h",
+                "/home/arthur/.platformio/packages/framework-zephyr/include/zephyr/toolchain/zephyr_stdint.h",
+                ""
+            ],
+            "compilerPath": "/home/arthur/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfp16-format=ieee",
+                "-isystem",
+                "/home/arthur/.platformio/packages/framework-zephyr/lib/libc/common/include",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/sof",
+		"source" : "C:/Users/isisk/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/audio/sof/zephyr"
+	}
+}

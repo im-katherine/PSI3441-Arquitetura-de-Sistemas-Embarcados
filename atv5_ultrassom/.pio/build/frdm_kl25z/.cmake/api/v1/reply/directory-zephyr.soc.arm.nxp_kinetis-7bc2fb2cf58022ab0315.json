@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "zephyr/soc/arm/nxp_kinetis",
+		"source" : "C:/Users/isisk/.platformio/packages/framework-zephyr@2.20701.220422/soc/arm/nxp_kinetis"
+	}
+}
